@@ -18,16 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Public Prompts Data
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This is a companion site to https://publicprompts.art/. 
+  Our goal is to share good prompts as open source. By design, all prompts in here are available 
+  as raw data in the `_data` folder. We encourage participation and will gladly merge PRs if 
+  they fit in the existing structure.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+
+
 
 # Build settings
 theme: minima
