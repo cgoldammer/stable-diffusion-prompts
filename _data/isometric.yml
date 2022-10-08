@@ -1,0 +1,11 @@
+name: Isometric Living rooms
+prompt: >
+    Tiny cute isometric living room in a cutaway box, soft smooth lighting, soft colors, purple and blue color scheme, 
+    soft colors, 100mm lens, 3d blender render
+cfg_scale: 10
+sampler: k_euler_a
+steps: 50
+images:
+  - name: 9 results from publicprompts
+    file: isometric.png
+    attribution: From [publicprompts.art](https://publicprompts.art/)
