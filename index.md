@@ -5,14 +5,20 @@
 layout: home
 ---
 
+# Overview
 
+This is a companion site to [publicprompts.art/](https://publicprompts.art/) that 
+makes the prompts available as structured 
+data, see the [`_data` folder](https://github.com/cgoldammer/stable-diffusion-prompts/tree/master/_data).
+
+# Prompt types
 
 {% for dt in site.data %}
 {% assign topicData = dt[1] %}
 {% assign topic = dt[0] %}
-# {{ topicData.name }}
+## {{ topicData.name }}
 
-## How to create
+### How to create
 - prompt: {{ topicData.prompt }}
 - cfg Scale: {{ topicData.cfg_scale }}
 - Sampler: {{ topicData.sampler }}
@@ -20,8 +26,8 @@ layout: home
 
 {% for img in topicData.images %}
 
-## Images
-### {{ img.name }}
+### Images
+#### {{ img.name }}
 ![{{img.name}}](./assets/img/{{ img.file }}){:class="img-responsive"}
 Attribution: {{ img.attribution }}
 {% endfor %}
