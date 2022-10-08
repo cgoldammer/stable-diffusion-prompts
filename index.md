@@ -22,7 +22,7 @@ layout: home
 
 ## Images
 ### {{ img.name }}
-![{{img.name}}](/assets/img/{{ img.file }}){:class="img-responsive"}
+![{{img.name}}](./assets/img/{{ img.file }}){:class="img-responsive"}
 Attribution: {{ img.attribution }}
 {% endfor %}
 
